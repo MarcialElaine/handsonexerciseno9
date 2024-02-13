@@ -1,9 +1,10 @@
 body{
-    margin: 0;
-    padding: 0;
+    margin: 40px;
+    padding: 50px;
     background-color: rgb(233, 236, 25);
-    margin: 5px;
+    margin: px;
     display: grid;
+    padding-bottom: 30px;
 }
 
 header{
@@ -15,7 +16,6 @@ header{
 header h1{
     background-color: rgb(245, 245, 240);
     margin: 0;
-    padding-top: 10px;
     padding: 0;
 }
 nav ul{
@@ -25,11 +25,12 @@ nav ul{
     grid-template-columns: auto auto auto;
     overflow: hidden;
     gap: 10px;
+    
 }
 
 nav li{
     list-style-type: none;
-    padding: 50px 5px;
+    padding: 5px;
     background-color: rgb(255, 255, 255);
     margin: 0;
     padding: auto;
@@ -38,7 +39,7 @@ nav li{
 
 .container{
     padding: 10px;
-    margin: 15px;
+    margin: 0;
     text-align: center;
 }
 
@@ -52,4 +53,9 @@ h1.blogContainer{
 li{
     text-align: start;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
 }
